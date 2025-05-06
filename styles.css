@@ -616,3 +616,67 @@ h2::after {
 .image-container:hover {
   transform: scale(1.05); /* Agrandir légèrement l'image lors du hover */
 }
+
+/* FOOTER */
+
+.footer-dark {
+  padding:25px 0;
+  color: #00ff41;
+  background-color: #0a192f;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+.footer-dark .student {
+  text-align:center;
+  opacity:0.5;
+  font-size:13px;
+  margin-bottom:0;
+}
